@@ -1,0 +1,30 @@
+name: CI - Travelar Frontend
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main, pt_controle_3]
+
+jobs:
+  build-and-lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout do Código
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Instalar Dependências
+        run: npm ci
+
+      - name: Verificar Linting (Prettier/ESLint)
+        run: npm run lint
+
+      - name: Verificar Build
+        run: npm run build
