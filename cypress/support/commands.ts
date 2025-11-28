@@ -142,7 +142,7 @@ Cypress.Commands.add('filterByPrice', (min, max) => {
   cy.wait(1000);
 });
 
-const COMMAND_DELAY = 100; 
+const COMMAND_DELAY = 1500; 
 const COMMANDS_TO_SLOW_DOWN = ['click', 'type', 'clear', 'check', 'uncheck', 'select', 'visit', 'reload'] as const;
 
 COMMANDS_TO_SLOW_DOWN.forEach((command) => {

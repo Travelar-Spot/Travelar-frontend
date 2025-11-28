@@ -2,7 +2,7 @@ Aqui está o **README completo, padronizado, claro e profissional**, seguindo o 
 
 ---
 
-# 🌍 **Travelar Frontend**
+# **Travelar Frontend**
 
 ## 1. **Visão Geral**
 
@@ -77,18 +77,18 @@ Essa estrutura assegura testes rápidos, confiáveis e integrados ao fluxo de de
 
 O frontend coordena os seguintes fluxos principais:
 
-### 🔐 **Autenticação**
+### **Autenticação**
 
 * Envio de credenciais para a Auth API
 * Armazenamento seguro do JWT
 * Inclusão automática do token em requisições autenticadas
 
-### 🏠 **Listagem de Imóveis**
+### **Listagem de Imóveis**
 
 * Consumo da Backend API para exibição de cards de imóveis
 * Filtros e ordenações (dependendo das funcionalidades implementadas)
 
-### 📅 **Reservas**
+### **Reservas**
 
 * Formulário com validação
 * Envio de dados autenticados
