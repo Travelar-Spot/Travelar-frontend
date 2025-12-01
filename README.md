@@ -1,7 +1,3 @@
-Aqui está o **README completo, padronizado, claro e profissional**, seguindo o estilo que você utilizou na documentação da API de Autenticação e mantendo coerência com todo o ecossistema **Travelar**:
-
----
-
 # **Travelar Frontend**
 
 ## 1. **Visão Geral**
